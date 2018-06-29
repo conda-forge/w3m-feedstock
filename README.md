@@ -15,14 +15,16 @@ w3m text mode web browser/pager.  Works well with an Emacs front end called emac
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/w3m-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/w3m-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/w3m-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/w3m-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/w3m-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/w3m-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/w3m-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/w3m-feedstock)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/w3m/badges/version.svg)](https://anaconda.org/conda-forge/w3m)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/w3m/badges/downloads.svg)](https://anaconda.org/conda-forge/w3m)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-w3m-green.svg)](https://anaconda.org/conda-forge/w3m) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/w3m.svg)](https://anaconda.org/conda-forge/w3m) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/w3m.svg)](https://anaconda.org/conda-forge/w3m) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/w3m.svg)](https://anaconda.org/conda-forge/w3m) |
 
 Installing w3m
 ==============
