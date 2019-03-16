@@ -53,6 +53,7 @@ about:
   # The license_family, i.e. "BSD" if license is "BSD-3-Clause". (optional)
   license_family: MIT
   summary: 'Text mode web browser/pager.'
+  dev_url: https://github.com/tats/w3m
 
   # The remaining entries in this section are optional, but recommended
   description: |
