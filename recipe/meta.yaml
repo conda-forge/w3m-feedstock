@@ -1,6 +1,6 @@
 {% set name = "w3m" %}
 {% set version = "0.5.3+git20190105" %}
-{% set sha256 = "e994d263f2fd2c22febfbe45103526e00145a7674a0fda79c822b97c2770a9e3" %}
+{% set sha256 = "0467bb5429b75749205a3f57b9f5e8abba49929272aeab6fce94ff17953f0784" %}
 
 package:
   name: {{ name|lower }}
