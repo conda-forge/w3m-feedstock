@@ -29,6 +29,7 @@ requirements:
     - libiconv
     - bdw-gc
     - openssl
+    - gdk-pixbuf
   run:
     - ncurses
     - readline
@@ -36,6 +37,7 @@ requirements:
     - libiconv
     - bdw-gc
     - openssl
+    - gdk-pixbuf
 
 test:
   commands:
