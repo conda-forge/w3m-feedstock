@@ -2,12 +2,18 @@ MACOSX_DEPLOYMENT_TARGET:
 - '10.9'
 c_compiler:
 - clang
+c_compiler_version:
+- '4'
 channel_sources:
 - conda-forge,defaults
 channel_targets:
 - conda-forge main
 cxx_compiler:
 - clangxx
+cxx_compiler_version:
+- '4'
+gdk_pixbuf:
+- 2.36.12
 libiconv:
 - '1.15'
 macos_machine:
@@ -19,6 +25,8 @@ ncurses:
 openssl:
 - 1.1.1a
 pin_run_as_build:
+  gdk_pixbuf:
+    max_pin: x.x.x
   libiconv:
     max_pin: x.x
   ncurses:
