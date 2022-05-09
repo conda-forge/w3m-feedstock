@@ -30,6 +30,7 @@ requirements:
     - openssl
     - gdk-pixbuf
     - imlib
+    - libglib
   run:
     - ncurses
     - readline
