@@ -23,7 +23,6 @@ requirements:
     - {{ compiler('cxx') }}
   host:
     - bdw-gc
-    - gdk-pixbuf
     - gettext
     - libiconv
     - ncurses
