@@ -28,6 +28,8 @@ requirements:
     - libiconv
     - bdw-gc
     - openssl
+    - gdk-pixbuf
+    - imlib
   run:
     - ncurses
     - readline
@@ -44,7 +46,7 @@ about:
   home: http://w3m.sourceforge.net
   license: MIT
   license_family: MIT
-  license_file: "{{ environ['RECIPE_DIR'] }}/LICENSE"
+  license_file: COPYING
   summary: 'Text mode web browser/pager.'
 
   # The remaining entries in this section are optional, but recommended
