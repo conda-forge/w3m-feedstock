@@ -22,22 +22,24 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
   host:
-    - ncurses
-    - readline
-    - gettext
-    - libiconv
     - bdw-gc
-    - openssl
     - gdk-pixbuf
+    - gettext
+    - glib
+    - gobject-introspection
     - imlib
     - libglib
-  run:
+    - libiconv
     - ncurses
+    - openssl
     - readline
+  run:
+    - bdw-gc
     - gettext
     - libiconv
-    - bdw-gc
+    - ncurses
     - openssl
+    - readline
 
 test:
   commands:
